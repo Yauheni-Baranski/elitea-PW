@@ -8,3 +8,5 @@ test('EPAM client work navigation', async ({ page }) => {
 
   await expect(page.getByText('Client Work')).toBeVisible();
 });
+
+// Added to ensure the feature branch has a distinct commit for the PR.
